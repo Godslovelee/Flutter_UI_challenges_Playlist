@@ -14,13 +14,21 @@ class _HomeScreenState extends State<HomeScreen> {
       body: ListView(
         children: [
           SizedBox(
+            height: 40,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text("Hello User!",style: TextStyle(
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold
+              ),),
 
+
+            ],
           )
-
         ],
-
       ),
-
     );
   }
 }
