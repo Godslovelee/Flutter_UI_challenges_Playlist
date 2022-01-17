@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'coffee_ui_display/home.dart';
 void main() {
   runApp(MyApp());
 }
@@ -9,18 +9,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      color: Colors.blue,
+      title: 'Coffee Shop',
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: HomeScreen()
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({required Key key, required this.title}) : super(key: key);
 
 
 
