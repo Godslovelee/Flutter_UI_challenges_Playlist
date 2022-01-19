@@ -40,7 +40,6 @@ class _DetailsPageState extends State<DetailsPage> {
                     Text(
                       'Preparation time',
                       style: TextStyle(
-
                           fontSize: 14.0,
                           fontWeight: FontWeight.bold,
                           color: Color(0xFF726B68)),
@@ -48,10 +47,8 @@ class _DetailsPageState extends State<DetailsPage> {
                     SizedBox(height: 7.0),
                     Text(
                       '5min',
-                      style: TextStyle(
-
-                          fontSize: 14.0,
-                          color: Color(0xFFC6C4C4)),
+                      style:
+                          TextStyle(fontSize: 14.0, color: Color(0xFFC6C4C4)),
                     ),
                     SizedBox(height: 10.0),
                     //This is the line
@@ -66,7 +63,6 @@ class _DetailsPageState extends State<DetailsPage> {
                     Text(
                       'Ingredients',
                       style: TextStyle(
-
                           fontSize: 14.0,
                           fontWeight: FontWeight.bold,
                           color: Color(0xFF726B68)),
