@@ -40,7 +40,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     Text(
                       'Preparation time',
                       style: TextStyle(
-                          fontFamily: 'nunito',
+
                           fontSize: 14.0,
                           fontWeight: FontWeight.bold,
                           color: Color(0xFF726B68)),
@@ -49,7 +49,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     Text(
                       '5min',
                       style: TextStyle(
-                          fontFamily: 'nunito',
+
                           fontSize: 14.0,
                           color: Color(0xFFC6C4C4)),
                     ),
@@ -66,7 +66,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     Text(
                       'Ingredients',
                       style: TextStyle(
-                          fontFamily: 'nunito',
+
                           fontSize: 14.0,
                           fontWeight: FontWeight.bold,
                           color: Color(0xFF726B68)),
