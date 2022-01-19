@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20.0),
                       image: DecorationImage(
-                          image: AssetImage('assets/apple.png'),
+                          image: AssetImage('assets/person.png'),
                           fit: BoxFit.cover)),
                 ),
               )
@@ -51,21 +51,34 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           SizedBox(height: 20.0),
-
-          
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text("Dark Flavour",
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w200,
-                  color:  Colors.greenAccent
-                )
+                  style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue)),
+              Padding(
+                padding: EdgeInsets.only(
+                  right: 15.0,
+                ),
+                child: Text("Strawberry",
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue)),
+
               )
             ],
+          ),
+          SizedBox(
+            height: 15.0,
+          ),
+
+          Container(
+            height: 400,
           )
-
-
         ],
       ),
     );
