@@ -81,7 +81,21 @@ class _HomeScreenState extends State<HomeScreen> {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
-                
+                Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(40), // if you need this
+                    side: BorderSide(
+                      color: Colors.grey.withOpacity(0.2),
+                      width: 1,
+                    ),
+                  ),
+                  child: Container(
+                    color: Colors.white,
+                    width: 200,
+                    height: 200,
+                  ),
+                )
+
               ],
             ),
           )
