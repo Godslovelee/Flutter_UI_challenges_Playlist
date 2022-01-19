@@ -52,7 +52,20 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           SizedBox(height: 20.0),
 
-          //TODO: add Row in the Widget Tree
+          
+          Row(
+            children: [
+              Text("Dark Flavour",
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w200,
+                  color:  Colors.greenAccent
+                )
+              )
+            ],
+          )
+
+
         ],
       ),
     );
