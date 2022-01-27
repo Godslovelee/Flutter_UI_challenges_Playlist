@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
-import 'package:flutter_icons/flutter_icons.dart';
+//import 'package:flutter_icons/flutter_icons.dart';
+import 'package:cupertino_icons/cupertino_icons.dart';
 
 class DetailsPage extends StatefulWidget {
   @override
@@ -75,36 +76,35 @@ class _DetailsPageState extends State<DetailsPage> {
                             children: [
                               buildIngredientItem(
                                   'Water',
-                                  Icon(Feather.droplet,
+                                  Icon(Icons.ac_unit_sharp,
                                       size: 10.0, color: Colors.white),
                                   Color(0xFF6FC5DA)),
                               buildIngredientItem(
                                   'Brewed Espresso',
-                                  Icon(Feather.target,
+                                  Icon(Icons.watch,
                                       size: 18.0, color: Colors.white),
                                   Color(0xFF615955)),
                               buildIngredientItem(
                                   'Sugar',
-                                  Icon(Feather.box,
+                                  Icon(Icons.check_box,
                                       size: 18.0, color: Colors.white),
                                   Color(0xFFF39595)),
                               buildIngredientItem(
                                   'Toffee Nut Syrup',
                                   Icon(
-                                      MaterialCommunityIcons.peanut_off_outline,
+                                      Icons.delete,
                                       size: 18.0,
                                       color: Colors.white),
                                   Color(0xFF8FC28A)),
                               buildIngredientItem(
                                   'Natural Flavors',
-                                  Icon(MaterialCommunityIcons.leaf,
+                                  Icon(Icons.leaderboard,
                                       size: 18.0, color: Colors.white),
                                   Color(0xFF3B8079)),
                               buildIngredientItem(
                                   'Vanilla Syrup',
                                   Icon(
-                                      MaterialCommunityIcons
-                                          .flower_tulip_outline,
+                                      Icons.ac_unit_sharp,
                                       size: 18.0,
                                       color: Colors.white),
                                   Color(0xFFF8B870)),
